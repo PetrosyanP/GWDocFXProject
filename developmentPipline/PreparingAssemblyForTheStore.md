@@ -8,7 +8,7 @@
 
 3. В файле steam_appid.txt который в корне проекта поменять AppId на id своего приложения.
 Для каждого тренажера свои 2 id (Free, Premium ) записать в ScriptableObject брать из в SteamWorks 
-![Alt text](./Images/PreparingAssemblyForTheStore1.png)
+![Alt text](../Images/PreparingAssemblyForTheStore1.png)
 
 4. (только если ассет добавляли заново) Перезапускаем Юнити
 

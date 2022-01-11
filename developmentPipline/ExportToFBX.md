@@ -3,7 +3,7 @@
 <span style="color:red"> *Экспортируются таким образом только меши и материалы (не текстуры и не normal/height/metallic… maps)
 Чтобы экспортировать модель с текстурами, необходимо… </span>
 
-![Alt text](/Images/ExportToFBX1.png)
+![Alt text](../Images/ExportToFBX1.png)
 
 Убрать галочку Export unrendered
 
@@ -11,48 +11,48 @@
 
 1. Все отдельные объекты, которые хотим перенести в одну модель, объединить под одним родителем (в иерархии сделать дочерними от одного объекта). Иначе плагин не поймет, что именно нужно экспортировать. Структуру внутри перенесенных объектов менять не нужно
 
-![Alt text](/Images/ExportToFBX2.png)
+![Alt text](../Images/ExportToFBX2.png)
 
 2. Удалить из этого объекта все неактивные объекты (если есть). Потому что плагин всех их экспортирует наравне с активными и вместо одного кресла, у вас может оказаться три одинаковых с разными текстурами в одном месте (см. Ошибку Z-Buffer как пример того, как это выглядит)
 
-![Alt text](/Images/ExportToFBX3.png)
+![Alt text](../Images/ExportToFBX3.png)
 
 *Eсли мы собираем для заказчика модель, то нужно сначала закинуть все текстуры и материалы в отдельные папки, ТОЛЬКО ПОТОМ экспортировать модель и копировать папки (не изменяя их после экспорта). И тогда можно будет нормально работать с текстурированными моделями.
 Большая часть текстур сама подтянеться, но часть всё таки нужно будет настраивать вручную.
 
 3. Выбрать нужный объект в иерархии или в папке проекта
 
-![Alt text](/Images/ExportToFBX4.png)
+![Alt text](../Images/ExportToFBX4.png)
 
 Или
 
-![Alt text](/Images/ExportToFBX5.png)
+![Alt text](../Images/ExportToFBX5.png)
 
 4. GameObject -> Export to FBX...
 
-![Alt text](/Images/ExportToFBX6.png)
-![Alt text](/Images/ExportToFBX7.png)
+![Alt text](../Images/ExportToFBX6.png)
+![Alt text](../Images/ExportToFBX7.png)
 
 5. Выбрать верные параметры (Убрать галочку Export unrendered)
 
-6. ![Alt text](/Images/ExportToFBX8.png)
+6. ![Alt text](../Images/ExportToFBX8.png)
 
 Так будет называться модель (но ее можно в любой момент переназвать)
 
-7. ![Alt text](/Images/ExportToFBX9.png)
+7. ![Alt text](../Images/ExportToFBX9.png)
 
 По этому пути модель экспортируется (по умолчанию, в папку Assets проекта). Советую в папку вне проекта, иначе модель может начать использоваться вами и измениться в процессе
 
 8. Проверить, что правильно выбрали объект 
 
-![Alt text](/Images/ExportToFBX10.png)
+![Alt text](../Images/ExportToFBX10.png)
 
 9. Экспортировать модель в необходимом формате (Blender не любит ASCII )
 
-![Alt text](/Images/ExportToFBX11.png)
+![Alt text](../Images/ExportToFBX11.png)
 
 10. Проверить все параметры и нажать “Export”
 
- ![Alt text](/Images/ExportToFBX12.png)
+ ![Alt text](../Images/ExportToFBX12.png)
 
 Теперь модель экспортирована!

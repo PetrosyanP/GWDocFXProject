@@ -2,15 +2,15 @@
 
 ## 1. ВКЛЮЧИТЕ CLOUD BUILD  
 В Unity проекте в окне Service включите CloudBuild   
-![Alt text](./Images/PreparingToBuildOnIOS1.png)  
+![Alt text](../Images/PreparingToBuildOnIOS1.png)  
 Так же его можно включить и на самом Dashboard  
-![Alt text](./Images/PreparingToBuildOnIOS2.png)
+![Alt text](../Images/PreparingToBuildOnIOS2.png)
 
 ## 2. ПРИСТУПИТЕ К НАСТРОЙКАМ  
 Начните настраивать свой CloudBuild выбрав платформой iOS, первые несколько страниц настроек не вызывают никаких проблем и вопросов.  
 
 ## 3. ПРОБЛЕМНАЯ СТРАНИЦА НАСТРОЕК  
-![Alt text](./Images/PreparingToBuildOnIOS3.png)  
+![Alt text](../Images/PreparingToBuildOnIOS3.png)  
 
 Эта страница настроек является самой важной. При создании нового проекта селектор "Choose iOS Credentials"должен быть установлен на "Add new provisioning credentials", если у вас уже есть "iOS Credentials"(машина и вид распространения приложения не изменились) то можно выбрать его.  
 
@@ -45,44 +45,44 @@
 Файл*. mobileprovision используется для кодовой подписи вашего приложения. Вы можете открыть файл *.mobileprovision в файле TextEdit. Содержимое файла структурировано в XML. Он содержит идентификаторы приложений UUID, bundle ID, разработка/производство и все права, включая aps-environment. 
 Его получение не составляет труда по ссылке в вашем apple профиле AppleDeveloper можно даже без мака.
 
-![Alt text](./Images/PreparingToBuildOnIOS4.png)  
-![Alt text](./Images/PreparingToBuildOnIOS5.png)  
-![Alt text](./Images/PreparingToBuildOnIOS6.png)  
+![Alt text](../Images/PreparingToBuildOnIOS4.png)  
+![Alt text](../Images/PreparingToBuildOnIOS5.png)  
+![Alt text](../Images/PreparingToBuildOnIOS6.png)  
 <span style="color:red">Если AppID не был заранее создан под это приложение то создаем его </span> [Создание AppID](#AppIDCreation)  
-![Alt text](./Images/PreparingToBuildOnIOS7.png)  
-![Alt text](./Images/PreparingToBuildOnIOS8.png)  
-![Alt text](./Images/PreparingToBuildOnIOS9.png)  
+![Alt text](../Images/PreparingToBuildOnIOS7.png)  
+![Alt text](../Images/PreparingToBuildOnIOS8.png)  
+![Alt text](../Images/PreparingToBuildOnIOS9.png)  
   
 ### <a name="AppIDCreation">Создание AppID</a>  
 Для создания mobileprovision необходимо использовать AppID  
-![Alt text](./Images/PreparingToBuildOnIOS10.png)  
+![Alt text](../Images/PreparingToBuildOnIOS10.png)  
 **Меню для создания AppID**  
-![Alt text](./Images/PreparingToBuildOnIOS11.png)  
+![Alt text](../Images/PreparingToBuildOnIOS11.png)  
 Для регистрации AppID необходим BundleID  
 
 ### Получаем 12p
 Нужен OSx для работы с "Ассистентом сертификации"  
 
 1. В машине на OSX запускаем приложение "Связка ключей" из него можно отправить запрос сертификата формата .certSigningRequest (CSR) у бюро
-![Alt text](./Images/PreparingToBuildOnIOS12.png)  
+![Alt text](../Images/PreparingToBuildOnIOS12.png)  
 
 2. В появившимся окне нужно указать почту на которую зарегистрирован аккаунт разработчика  
-![Alt text](./Images/PreparingToBuildOnIOS13.png)  
+![Alt text](../Images/PreparingToBuildOnIOS13.png)  
 
 3. Сохраняем файл (CSR) на диск, далее он нам понадобится при создании сертификата p12
-![Alt text](./Images/PreparingToBuildOnIOS14.png)  
+![Alt text](../Images/PreparingToBuildOnIOS14.png)  
 
 4. Теперь заходим в аккаунт разработчика на панель Сертификаты и создаем новый сертификат формата cer
-![Alt text](./Images/PreparingToBuildOnIOS15.png)  
+![Alt text](../Images/PreparingToBuildOnIOS15.png)  
 
 5. В одном из следующих диалоговых окон будет поле для внесения в него (CSR) файла
-![Alt text](./Images/PreparingToBuildOnIOS16.png)  
+![Alt text](../Images/PreparingToBuildOnIOS16.png)  
 
 6. Перенести полученный сертификат формата cer в машину с OSX занести информацию о нем в связку ключей, и экспортировать потом из нее в формате p12
-![Alt text](./Images/PreparingToBuildOnIOS17.png)  
+![Alt text](../Images/PreparingToBuildOnIOS17.png)  
 
 7. При экспорте необходимо будет ввести пароль для доступа к файлу p12 (его необходимо так же будет внести при билде в CloudBuild)
-![Alt text](./Images/PreparingToBuildOnIOS18.png)  
+![Alt text](../Images/PreparingToBuildOnIOS18.png)  
 
 ### Действия при успешном CloudBuild  
 Получив и внеся все необходимые сертификаты в настройки Cloud Build, начнется автоматическая сборка проекта, следует заметитьчто при полученном файле p12 единожды, можно билдить несколько приложений, без нужды получать этот сертификат еще раз, так что повторно необходимо только создать файл.mobileprovision. для другого приложения  
@@ -91,23 +91,23 @@
 
 1. Скачиваем проект на OSX  
 Теперь необходимо скачать наш проект в формате ipa на машину с OSX для дальнейшей транспортировки на сервера apple  
-![Alt text](./Images/PreparingToBuildOnIOS19.png) 
+![Alt text](../Images/PreparingToBuildOnIOS19.png) 
 
 2. Подготавливаем приложение в аккаунте разработчика  
 В нашем аккаунте разработчика необходимо перейти в AppStoreConnect там выбрать вкладку "Мои приложения"  
-![Alt text](./Images/PreparingToBuildOnIOS20.png) 
+![Alt text](../Images/PreparingToBuildOnIOS20.png) 
 
 Выбрать пункт "Создать новое приложение"  
-![Alt text](./Images/PreparingToBuildOnIOS21.png) 
+![Alt text](../Images/PreparingToBuildOnIOS21.png) 
 
 Далее заполняем несколько форм в id пакета записываем bundleid в SKU любой свой идентификатор  
-![Alt text](./Images/PreparingToBuildOnIOS22.png) 
+![Alt text](../Images/PreparingToBuildOnIOS22.png) 
 
 Только теперь , после того как приложение внесено в аккаунт разработчика, мы устанавливаем программу "Transporter" которая перенесет наше приложение на сервер apple (Если программа не была внесена заранее в ваш аккаунт то появится ошибка)  
-![Alt text](./Images/PreparingToBuildOnIOS23.png)  
-![Alt text](./Images/PreparingToBuildOnIOS24.png)  
-![Alt text](./Images/PreparingToBuildOnIOS25.png)  
-![Alt text](./Images/PreparingToBuildOnIOS26.png)  
+![Alt text](../Images/PreparingToBuildOnIOS23.png)  
+![Alt text](../Images/PreparingToBuildOnIOS24.png)  
+![Alt text](../Images/PreparingToBuildOnIOS25.png)  
+![Alt text](../Images/PreparingToBuildOnIOS26.png)  
 
 ## 6. ПРЕДОСТАВИТЬ ИНФОРМАЦИЮ О СООТВЕТСТВИИ ЭКСПОРТНЫМ ТРЕБОВАНИЯМ  
 После того как наша сборка будет доставлена на сервера apple и обработана, для того что бы возможно было начать тестирование в приложении TestFlyight необходимо внести информацию о соответствии экспортным требованиям

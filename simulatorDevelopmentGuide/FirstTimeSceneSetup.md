@@ -30,7 +30,7 @@ UPD. Шаблон сцены можно взять по пути **"Assets/VRCom
 Внутрь этого объекта помещаются вспомогательные модули тренажера, освещение, звук (Пример, AudioReverbZone, коллайдеры пола, модуль CloseToWall)
 
 Пример иерархии:  
-![Alt text](/Images/FirstTimeSceneSetup_1.png)
+![Alt text](../Images/FirstTimeSceneSetup_1.png)
 
 ## Порядок создания объектов на сцене
 

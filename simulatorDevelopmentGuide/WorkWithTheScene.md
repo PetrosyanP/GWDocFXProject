@@ -46,7 +46,7 @@
 12) Проверить, что для всего текста в TMPro проставлена галочка “Extra Padding property”
 13) Все стены всегда отрисовываются первыми (чтобы ненужные объекты за стенами не прошли тест Z-буфера)
 14) Пример: 
-15) ![Alt text](/Images/WorkWithTheScene.png)
+15) ![Alt text](../Images/WorkWithTheScene.png)
 
 ## План
 

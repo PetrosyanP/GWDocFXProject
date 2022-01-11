@@ -23,11 +23,11 @@
 
 После определения версии необходимо добавить Label в Plastic с названием новой версии проекта и описанием изменений.
 
-![Alt text](/Images/LabelPlastic.png)
+![Alt text](../Images/LabelPlastic.png)
 
 А так же необходимо добавить в [проект с описанием версий](https://github.com/Goldfinchworks/VersionsGWproProjects)  название и описание новой версии в файлик Info.md
 
 после изменения файлика info.md необходимо заполнить описание релиза:
 
-![Alt text](/Images/GitRelease.png)
+![Alt text](../Images/GitRelease.png)
 

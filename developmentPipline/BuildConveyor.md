@@ -12,7 +12,7 @@ Trainers-задаем колличество тренажеров после п�
   - idTrainers-id тренажера устанавливается в MessageControllerPlug
   - NamePatchScene-путь до сцены которая будет включатся в тренажера
 
-![Alt text](./Images/BuilderSettings.png)
+![Alt text](../Images/BuilderSettings.png)
 
 Для того что бы запустить конвейер из командной строки необходимо ввести строку (пример): 
 C:\Users\Ariestellar>"C:\Program Files\Unity\Hub\Editor\2020.1.17f1\Editor\Unity.exe" -batchmode -executeMethod ContinuousDevelopment.Builder.StartConveyor -logFile ./Logs/unity.log
