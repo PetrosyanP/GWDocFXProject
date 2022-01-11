@@ -20,3 +20,7 @@
   href: ExportToFBX.md
 - name: Как подготовить билд под Сторы?
   href: PreparingAssemblyForTheStore.md
+- name: Как пользоваться пакетной настройкой Шлема?  
+  href: PackageSettingsHelmet.md
+- name: Основные моменты работы с DocFX  
+  href: WorkWithDocFX.md

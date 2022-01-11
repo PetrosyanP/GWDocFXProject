@@ -3,9 +3,10 @@
     {
       "src": [
         {
-          "src": "../../",
+          "src": "./../../",
           "files": [
-            "WorkingProjects/VR Trainers GWPro_Work/Assets/**.cs"
+            "VR Trainers GWPro_2/Assets/Trainers/**.cs",
+            "VR Trainers GWPro_2/Assets/VRCommonComponents/**.cs"           
           ]
         }
       ],
