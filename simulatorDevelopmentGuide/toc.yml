@@ -20,3 +20,7 @@
   href: OcclusionCullingWorkflow.md
 - name: Менеджер возврата действий
   href: BackActionManager.md
+- name: Примерное определение целевого FPS новой сцены
+  href: DeterminationNewScene.md
+
+
