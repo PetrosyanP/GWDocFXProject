@@ -3,34 +3,27 @@
     {
       "src": [
         {
-          "src": "./../../",
+          "src": "./../",
           "files": [
-            "VR Trainers GWPro_2/Assets/Trainers/**.cs",
-            "VR Trainers GWPro_2/Assets/VRCommonComponents/**.cs"           
+            "VR Trainers GWPro_Work/Assets/Trainers/**.cs",
+            "VR Trainers GWPro_Work/Assets/VRCommonComponents/**.cs"
           ]
         }
       ],
       "dest": "api",
       "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": true
     }    
   ],
   "build": {
+    "cleanupCacheHistory": false,
     "content": [
       {
         "files": [
           "api/**.yml",
           "api/index.md"
         ]
-      },
-      {
-        "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "toc.yml",
-          "*.md"
-        ]
-      },
+      },      
       {
         "files": [
           "developmentPipline/**"
@@ -42,13 +35,17 @@
         ]
       }
     ],
-    "resource": [
-      {
-        "files": [
-          "images/**"
-        ]
-      }
-    ],
+    "globalMetadata": {
+      "_appTitle": "GWDoc",
+      "_appFaviconPath": "./Images/favicon.ico",
+      "_appLogoPath": "./Images/logo.svg"
+    },
+    "dest": "_site",
+    "disableGitFeatures": false,
+    "fileMetadataFiles": [],    
+    "keepFileLink": false,
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
     "overwrite": [
       {
         "files": [
@@ -60,17 +57,16 @@
         ]
       }
     ],
-    "dest": "_site",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
     "template": [
       "default"
-    ],
-    "postProcessors": [ "ExtractSearchIndex" ],    
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    ]
   }
 }

@@ -1,10 +1,10 @@
 # Как пользоваться пакетной настройкой шлема
  
-[Инструкция по подготовке пакетной настройки от Vive]{https://business.vive.com/ru/support/dms/category_howto/creating-the-batch-configuration-package.html}
+[Инструкция по подготовке пакетной настройки от Vive](https://business.vive.com/ru/support/dms/category_howto/creating-the-batch-configuration-package.html)
 
 С помощью этой инструкции мною был подготовлен пакет:
 
-[Первая готовая пакетная настройка]{https://disk.yandex.ru/d/Xz0eo8lfjfgNJQ}
+[Первая готовая пакетная настройка](https://disk.yandex.ru/d/Xz0eo8lfjfgNJQ)
 
 ## Какие пакетные настройки я внес: 
 
