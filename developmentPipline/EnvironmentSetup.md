@@ -4,7 +4,5 @@
 
 Как настроить проект для VIve Focus в Unity?
 
-[Статья, которая описывает пример настройки необходимых плагинов и пакетов для работы с Vive Focus в пустом проекте](./ProcedureForCreatingANewSimulator.md)
-
 [Скачать ViveInputUtility](https://github.com/ViveSoftware/ViveInputUtility-Unity/releases)
 
