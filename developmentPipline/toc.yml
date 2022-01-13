@@ -1,5 +1,7 @@
 - name: Введение
   href: intro.md
+- name: Как работать с чужим кодом?
+  href: WorkingWithSomeoneCode.md
 - name: Как настроить окружение в новом проекте?
   href: EnvironmentSetup.md
 - name: Как работаем в системе контроля версий?

@@ -2,6 +2,8 @@
   href: simulatorDevelopmentGuide/  
 - name: Development Pipline
   href: developmentPipline/  
+- name: InternalAssets
+  href: internalAssets/ 
 - name: Api Documentation
   href: api/
   homepage: api/index.md
