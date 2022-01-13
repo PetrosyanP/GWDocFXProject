@@ -2,8 +2,6 @@
   href: intro.md
 - name: Как работать с чужим кодом?
   href: WorkingWithSomeoneCode.md
-- name: Как настроить окружение в новом проекте?
-  href: EnvironmentSetup.md
 - name: Как работаем в системе контроля версий?
   href: VersionControlGuidline.md
 - name: Как соблюдать структуру проекта?
@@ -26,3 +24,5 @@
   href: PackageSettingsHelmet.md
 - name: Основные моменты работы с DocFX  
   href: WorkWithDocFX.md
+- name: Как настроить окружение в новом проекте?
+  href: EnvironmentSetup.md
