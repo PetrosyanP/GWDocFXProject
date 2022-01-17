@@ -1,4 +1,4 @@
-# Работа с User Interface
+# Работа с User Interface (Artist)
 
 ## Пользовательское меню
 ![Alt text](../Images/WorkWithUserInterface1.png)

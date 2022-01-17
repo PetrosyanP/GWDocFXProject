@@ -1,4 +1,4 @@
-# Особенности работы с OcclusionCulling 
+# Особенности работы с OcclusionCulling (Artist) 
 
 [Официальная документация использования OcclusionCulling в Unity](https://docs.unity3d.com/ru/2018.4/Manual/OcclusionCulling.html)
 
