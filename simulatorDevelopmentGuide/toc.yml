@@ -1,5 +1,7 @@
 - name: Введение
   href: intro.md
+- name: Гайдлайн по оптимизации
+  href: ArticleAboutOptimization.md
 - name: Порядок версионной маркировки
   href: ProcedureForRegisteringNewVersionsInDevelopment.md
 - name: Порядок создания нового тренажера
