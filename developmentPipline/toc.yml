@@ -24,5 +24,7 @@
   href: PackageSettingsHelmet.md
 - name: Основные моменты работы с DocFX  
   href: WorkWithDocFX.md
+- name: Как тестировать работу на целевом устройстве?
+  href: Testing.md
 - name: Как настроить окружение в новом проекте?
   href: EnvironmentSetup.md
