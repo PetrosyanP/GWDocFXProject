@@ -28,3 +28,5 @@
   href: Testing.md
 - name: Как настроить окружение в новом проекте?
   href: EnvironmentSetup.md
+- name: Определение готовности разработанного тренажера
+  href: DefenitionOfDoneNewTrainer.md
