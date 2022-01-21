@@ -31,5 +31,5 @@
 - name: Определение готовности разработанного тренажера
   href: DefenitionOfDoneNewTrainer.md
 - name: Пайплайн создания универсальной анимации для Humanoid типа
-  href: RecordHumanoidAnimation.md
+  href: RecordHumanoidAnim.md
 
