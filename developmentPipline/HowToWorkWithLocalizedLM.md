@@ -140,32 +140,72 @@
 <details>
 <summary>Раскрыть</summary>
 
-#### Создание и настройка подключения к гугл таблицам
+#### Создание и настройка подключения к гугл таблицам  
 
-#### Действия при создании новой таблицы
+- Создать ассет GoogleSheetsProvider (ПКМ->Create->Localization->GooogleSheetProvider)  
+![Создание ассета GoogleSheetsProvider](../Images/HowToWorkWithLocalizedLM36.png)  
+- в поле ApplicationName вписать имя приложения в гугл-сурвисах (vr-trainers-localization)  
+![Поле "ApplicationName"](../Images/HowToWorkWithLocalizedLM37.png)  
+- Из выпадающего списка выбрать тип аутентификации OAuth  
+![Выбор типа аутентификации](../Images/HowToWorkWithLocalizedLM38.png)  
+- в поле ClientID вписать ID, выданный ответственным за приложение для синхронизации с гугл таблицами  
+![Поле "ClientID"](../Images/HowToWorkWithLocalizedLM39.png)  
+- В поле ClientSecret вписать пароль, выданный ответственным за приложение для синхронизации с гугл таблицами  
+![Поле "ClientSecret"](../Images/HowToWorkWithLocalizedLM40.png)  
+- Нажать кнопку Authorize  
+![Кнопка "Authorize"](../Images/HowToWorkWithLocalizedLM41.png)  
+- В открывшемся окне браузера выбрать гугл аккаунт, который будет использоваться для работы с гугл таблицами  
+- Резальтатом таких действий должно стать сообщение в консоли "Authorized \[Дата\] \[Время\]"  
+![Результат авторизации](../Images/HowToWorkWithLocalizedLM42.png)  
+
+#### Настройка таблицы для последующей синхронизации с гугл таблицами  
 
 - Выбрать ассет коллекции таблиц (Пример иконки ниже)  
-![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM36.png)  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM43.png)  
 - В блоке Extenshions нажать кнопку "+"  
-- выбрать GoogleSheetExtenshions
-- В поле SheetsServiceProvider выбрать ассет провайдера гугл таблиц
-- В поле SpreadSheetID ввести ID гугл таблицы (1r_EHhQuWWfo5QkP834ahf2Wzgww6xL_8pkeY-qC4Shs)
-- Под полем SheetID ввести имя таблицы
-- Нажать кнопку AddSheet
-- Из выпадающего списка выбрать созданную таблицу
-- В блоке MapppedColumns нажать кнопку "+"
-- Из выпадающего списка выбрать KeyColumn
-- В блоке MapppedColumns нажать кнопку "+"
-- Из выпадающего списка выбрать LocaleColumn
-- В поле LocaleIdentifier выбрать английскую локаль
-- В блоке MapppedColumns нажать кнопку "+"
-- Из выпадающего списка выбрать LocaleColumn
-- В поле LocaleIdentifier выбрать русскую локаль
-- Нажать кнопку Push
+![Кнопка "+"](../Images/HowToWorkWithLocalizedLM44.png)  
+- Выбрать GoogleSheetExtenshions  
+![Выбор типа расширения](../Images/HowToWorkWithLocalizedLM45.png)  
+- В поле SheetsServiceProvider выбрать ассет провайдера гугл таблиц  
+![Линковка GoogleSheetsProvider](../Images/HowToWorkWithLocalizedLM46.png)  
+- В поле SpreadSheetID ввести ID гугл таблицы  
+![Поле "SpreadSheetID"](../Images/HowToWorkWithLocalizedLM47.png)  
+- Под полем SheetID ввести имя таблицы  
+![Поле ввода имени нового листа](../Images/HowToWorkWithLocalizedLM48.png)  
+- Нажать кнопку AddSheet  
+![Кнопка "AddSheet"](../Images/HowToWorkWithLocalizedLM49.png)  
+- Из выпадающего списка выбрать созданный лист  
+![Выбор созданного листа](../Images/HowToWorkWithLocalizedLM50.png)  
+- В блоке MapppedColumns нажать кнопку "+"  
+![Кнопка "+"](../Images/HowToWorkWithLocalizedLM51.png)  
+- Из выпадающего списка выбрать KeyColumn  
+![Выбор типа ячейки "Key"](../Images/HowToWorkWithLocalizedLM52.png)  
+- В блоке MapppedColumns нажать кнопку "+"  
+![Кнопка "+"](../Images/HowToWorkWithLocalizedLM51.png)  
+- Из выпадающего списка выбрать LocaleColumn  
+![Выбор типа ячейки "Locale"](../Images/HowToWorkWithLocalizedLM53.png)  
+- В поле LocaleIdentifier выбрать английскую локаль  
+![Выбор английской локали](../Images/HowToWorkWithLocalizedLM54.png)  
+- В блоке MapppedColumns нажать кнопку "+"  
+![Выбор типа ячейки "Locale"](../Images/HowToWorkWithLocalizedLM51.png)  
+- Из выпадающего списка выбрать LocaleColumn  
+![Выбор типа ячейки](../Images/HowToWorkWithLocalizedLM53.png)  
+- В поле LocaleIdentifier выбрать русскую локаль  
+![Выбор русской локали](../Images/HowToWorkWithLocalizedLM55.png)  
 
-#### Действия при редактировании уже существующей таблицы
+#### Синхронизация серверной таблицы с таблицей в проекте  
 
+- Выбрать ассет коллекции таблиц (Пример иконки ниже)  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM43.png)  
+- Нажать кнопку Push  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM56.png)  
 
+#### Синхронизация таблицы в проекте с серверной таблицей  
+
+- Выбрать ассет коллекции таблиц (Пример иконки ниже)  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM43.png)  
+- Нажать кнопку Pull  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM57.png)  
 
 </details>
 
