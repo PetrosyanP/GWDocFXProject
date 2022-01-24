@@ -1,5 +1,7 @@
 - name: Введение
   href: intro.md
+- name: Как мерджить в Main и Develop
+  href: PullRequestPlastic.md
 - name: Как работать с чужим кодом?
   href: WorkingWithSomeoneCode.md
 - name: Как работаем в системе контроля версий?
