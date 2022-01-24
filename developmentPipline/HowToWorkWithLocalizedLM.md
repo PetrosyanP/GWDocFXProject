@@ -8,7 +8,7 @@
 - Создать ассет LessonManagerErrors ([См. Приложение 1](#приложение-1-работа-с-ассетом-lessonmanagererrors))  
 - Прилинковать ассет LessonManagerErrors к LessonManager  
 ![Прилинковать созданный ассет к LessonManager](../Images/HowToWorkWithLocalizedLM1.png)  
-- Создать ассет AudioAdviceSO ([См. Приложение 3](приложение-3-работа-с-ассетом-audioadviceso))  
+- Создать ассет AudioAdviceSO ([См. Приложение 3](#приложение-3-работа-с-ассетом-audioadviceso))  
 - Прилинковать созданный ассет к LessonManager  
 ![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2.png)
 
@@ -72,7 +72,7 @@
 - Для удаления аудиоподсказки из шага достаточно в выпадающем списке выбрать значение "None"  
 ![Выбор имени аудиоподсказки](../Images/HowToWorkWithLocalizedLM60.png)  
   
-Если аудиоподсказки нет ни в одном значении выпадающего списка, доступного из LM, то необходимо добавить его в ассет AudioAdviceSO ([См. Приложение 3](приложение-3-работа-с-ассетом-audioadviceso))  
+Если аудиоподсказки нет ни в одном значении выпадающего списка, доступного из LM, то необходимо добавить его в ассет AudioAdviceSO ([См. Приложение 3](#приложение-3-работа-с-ассетом-audioadviceso))  
 
 </details>
 
