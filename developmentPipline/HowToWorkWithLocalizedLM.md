@@ -2,12 +2,15 @@
 (Апдейт после внедрения локализации в тренажеры)  
 
 ## 1. Подготовка 
-<details><summary>Раскрыть</summary>
+<details>
+<summary>Раскрыть</summary>
 
-- Создать ассет LessonManagerErrors  
+- Создать ассет LessonManagerErrors ([См. Приложение 1](#приложение-1-работа-с-ассетом-lessonmanagererrors))  
+- Прилинковать ассет LessonManagerErrors к LessonManager  
+![Прилинковать созданный ассет к LessonManager](../Images/HowToWorkWithLocalizedLM1)  
+- Создать ассет AudioAdviceSO ([См. Приложение 3](приложение-3-работа-с-ассетом-audioadviceso)  
 - Прилинковать созданный ассет к LessonManager  
-- Создать ассет AudioAdviceSO  
-- Прилинковать созданный ассет к LessonManager  
+![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2)
 
 </details>
 
