@@ -7,10 +7,10 @@
 
 - Создать ассет LessonManagerErrors ([См. Приложение 1](#приложение-1-работа-с-ассетом-lessonmanagererrors))  
 - Прилинковать ассет LessonManagerErrors к LessonManager  
-![Прилинковать созданный ассет к LessonManager](../Images/HowToWorkWithLocalizedLM1)  
+![Прилинковать созданный ассет к LessonManager](../Images/HowToWorkWithLocalizedLM1.png)  
 - Создать ассет AudioAdviceSO ([См. Приложение 3](приложение-3-работа-с-ассетом-audioadviceso)  
 - Прилинковать созданный ассет к LessonManager  
-![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2)
+![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2.png)
 
 </details>
 
