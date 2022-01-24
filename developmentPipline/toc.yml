@@ -32,4 +32,6 @@
   href: DefenitionOfDoneNewTrainer.md
 - name: Пайплайн создания универсальной анимации для Humanoid типа
   href: RecordHumanoidAnim.md
+- name: Как настроить проект VRTraking для MC
+  href: ProjectTrakingVR.md
 
