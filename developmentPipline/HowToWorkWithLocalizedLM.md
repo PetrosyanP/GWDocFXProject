@@ -8,7 +8,7 @@
 - Создать ассет LessonManagerErrors ([См. Приложение 1](#приложение-1-работа-с-ассетом-lessonmanagererrors))  
 - Прилинковать ассет LessonManagerErrors к LessonManager  
 ![Прилинковать созданный ассет к LessonManager](../Images/HowToWorkWithLocalizedLM1.png)  
-- Создать ассет AudioAdviceSO ([См. Приложение 3](приложение-3-работа-с-ассетом-audioadviceso)  
+- Создать ассет AudioAdviceSO ([См. Приложение 3](приложение-3-работа-с-ассетом-audioadviceso))  
 - Прилинковать созданный ассет к LessonManager  
 ![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2.png)
 
@@ -16,22 +16,29 @@
 
 ## 2 Настройка ошибок в LM
 
-- Открыть LM
+- Открыть LM (Window-LessonManager_V2)  
 - Выбрать режим из выпадающего списка  
-- Открыть шаг, который необходимо настроить  
+![Выбор режима LM](../Images/HowToWorkWithLocalizedLM3.png)  
+- Открыть шаг, который необходимо настроить, нажав на кнопку с ID шага  
+![Открытие шага](../Images/HowToWorkWithLocalizedLM4.png)  
 - Раскрыть блок "Список ивентов, являющихся ошибкой"  
+![Блок "Список ивентов, являющихся ошибкой"](../Images/HowToWorkWithLocalizedLM5.png)  
 
 ### 2.1 Добавление ошибки в шаг  
 
 - Нажать кнопку “+”  
+![Кнопка "+"](../Images/HowToWorkWithLocalizedLM6.png)  
 - Из выпадающего списка необходимо выбрать имя ивента, который считается ошибкой, настроенный в ассете LessonManagerErrors  
+![Выбор целевого ивента](../Images/HowToWorkWithLocalizedLM7.png)  
 - Из выпадающего списка необходимо выбрать имя описания ошибки, настроенного в ассете LessonManagerErrors  
+![Выбор описания ошибки](../Images/HowToWorkWithLocalizedLM8.png)  
 
 ### 2.2 Удаление ошибки из шага  
 
 - Нажать на кнопку “-” под именем ивента  
+![Удаление ошибки](../Images/HowToWorkWithLocalizedLM9.png)  
   
-Если текста ошибки нет ни в одном значении выпадающего списка, доступного из LM, то необходимо добавить его в ассет LessonManagerErrors [см. Приложение 1](#1-lesson-manager-errors)
+Если текста ошибки нет ни в одном значении выпадающего списка, доступного из LM, то необходимо добавить его в ассет LessonManagerErrors ([См. Приложение 1](#приложение-1-работа-с-ассетом-lessonmanagererrors))  
 
 ## 3. Настройка аудиоподсказок в LM  
 
