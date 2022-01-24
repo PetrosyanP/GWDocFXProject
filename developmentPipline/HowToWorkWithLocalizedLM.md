@@ -50,29 +50,47 @@
 
 ### Создание ассета
 
-- Создать ассет LessonManagerErrors (ПКМ->Create->LessonManagerErrors)
-- В инспекторе включить Debug-режим
-- В поле SceneName ввести название сцены тренажера для которого проводятся действия
-- В инспекторе включить нормальный режим
+- Создать ассет LessonManagerErrors (ПКМ->Create->LessonManagerErrors)  
+![Создание ассета LessonManagerErrors](../Images/HowToWorkWithLocalizedLM10.png)  
+- В инспекторе включить Debug-режим (троеточие в правом верхнем углу инспектора -> Debug)  
+![Включение Debug-режима инспектора](../Images/HowToWorkWithLocalizedLM11.png)  
+- В поле SceneName ввести название сцены тренажера для которого проводятся действия  
+![Установка целевой сцены для ассета](../Images/HowToWorkWithLocalizedLM12.png)  
+- В инспекторе включить нормальный режим (троеточие в правом верхнем углу инспектора -> Normal)  
+![Включение нормального режима инспектора](../Images/HowToWorkWithLocalizedLM13.png)  
 
 ### Добавление отслеживаемого ивента
 
-- Нажать кнопку "Add error"
-- Раскрыть созданное поле и ввести в поле ErrorKey имя ключа для этого ивента
-- Из выпадающего списка EventName выбрать ивент, который считается ошибкой
+- Нажать кнопку "Add error"  
+![Кнопка "Add error"](../Images/HowToWorkWithLocalizedLM14.png)  
+- Раскрыть созданное поле  
+![Созданный элемент ассета](../Images/HowToWorkWithLocalizedLM15.png)  
+- Ввести в поле ErrorKey имя ключа для этого ивента  
+![Поле "ErrorKey"](../Images/HowToWorkWithLocalizedLM16.png)  
+- Из выпадающего списка EventName выбрать ивент, который считается ошибкой  
+![Ивенты тренажера](../Images/HowToWorkWithLocalizedLM17.png)  
 
 ### Добавление описания ошибки
 
-- Нажать кнопку "Add description for [EventKey]" 
-- В поле DescriptionKey ввести имя описания
-- Из выпадающего списка TableCollection выбрать коллекцию таблиц, откуда брать локализацию
-- Из выпадающего списка LocalizationKeys выбрать ключ локализации
-- Нажать кнопку Save
+- Нажать кнопку "Add description for \[EventKey\]"  
+![Кнопка "Add description for \[EventKey\]"](../Images/HowToWorkWithLocalizedLM18.png)  
+- Раскрыть созданное поле  
+![Добавленный ключ описания](../Images/HowToWorkWithLocalizedLM19.png)  
+- В поле DescriptionKey ввести имя описания  
+![Ключ описания](../Images/HowToWorkWithLocalizedLM20.png)  
+- Из выпадающего списка TableCollection выбрать коллекцию таблиц, откуда брать локализацию  
+![Коллекция таблиц](../Images/HowToWorkWithLocalizedLM21.png)  
+- Из выпадающего списка LocalizationKeys выбрать ключ локализации  
+![Ключ локализации](../Images/HowToWorkWithLocalizedLM22.png)  
+- Нажать кнопку Save  
+![Кнопка "Save"](../Images/HowToWorkWithLocalizedLM23.png)  
 
 ### Удаление ошибки
 
-- Если удаляемое описание единственное для ивента, то достаточно нажать на кнопку Delete event [EventKey] from asset
-- Если у ивента, с которым связано описание оно не одно, то необходимо нажать кнопку DeleteDescription [DescriptionKey]
+- Если удаляемое описание единственное для ивента, то достаточно нажать на кнопку Delete event \[EventKey\] from asset  
+![Кнопка "Delete event \[EventKey\] from asset"](../Images/HowToWorkWithLocalizedLM24.png)  
+- Если у ивента, с которым связано описание оно не одно, то необходимо нажать кнопку Delete description \[DescriptionKey\]  
+![Кнопка "Delete description \[DescriptionKey\]"](../Images/HowToWorkWithLocalizedLM25.png)  
 
 ## Приложение 2 (Работа с таблицей локализации)
 
@@ -81,7 +99,7 @@ Cоздать коллекцию таблиц локализации
 Открыть окно редактирования таблиц локализации (Window->AssetManagment->LocalizationTables)
 В открывшемся окне выбрать вкладку NewTableCollection
 В поле Type выбрать из выпадающего списка тип StringTableCollection
-В поле Name ввести название таблицы ([Имя тренажера]Texts)
+В поле Name ввести название таблицы (\[Имя тренажера\]Texts)
 Нажать кнопку Create
 В диалоговом окне указать путь к созданной папке в п. i
 В инспекторе выбрать файл сохранения ошибок тренажера
