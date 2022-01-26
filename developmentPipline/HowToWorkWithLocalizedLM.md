@@ -76,7 +76,27 @@
 
 </details>
 
-## Текстуры, материалы и что-то еще  
+## 4 Локализация текстов, не управляемых LM  
+<details>
+<summary>Раскрыть</summary>
+
+- Добавить локализуемый текст в таблицу локализации ([См. Приложение 2](#приложение-2-работа-с-таблицей-локализации-текстов))  
+- На объект TextMeshPro, который необходимо локализовать, добавить компонент "LocalizeStringEvent"  
+![Добавление компонента "LocalizeStringEvent"](../Images/HowToWorkWithLocalizedLM77.png)  
+- В поле "StringReference" выпадающего списка таблицу и ключ локализации  
+![Поле "StringReference"](../Images/HowToWorkWithLocalizedLM78.png)  
+- Добавить ивент в UpdateString  
+![Кнопка добавления ивента](../Images/HowToWorkWithLocalizedLM79.png)  
+- В качестве целевого объекта выбрать сам объект  
+![Выбор целевого объекта ивента](../Images/HowToWorkWithLocalizedLM80.png)  
+- В качестве метода выбрать TextMeshPro->Text в блоке "Dynamic string"  
+![Выбор метода для обновления локализации](../Images/HowToWorkWithLocalizedLM81.png)  
+
+</details>
+
+## 5 Локализация аудио, не управляемого LM  
+
+## 6 Локализация текстур  
 
 ## Приложение 1 (Работа с ассетом LessonManagerErrors)  
 <details>
