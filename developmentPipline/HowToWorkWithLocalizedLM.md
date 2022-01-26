@@ -1,6 +1,14 @@
 # ПАЙПЛАЙН СОЗДАНИЯ РЕЖИМА ТРЕНАЖЕРА  
 (Апдейт после внедрения локализации в тренажеры)  
 
+<details>
+**<summary>ВСЕ АССЕТЫ, ДОБАВЛЯЕМЫЕ В КАКУЮ-ЛИБО ТАБЛИЦУ ЛОКАЛИЗАЦИИ ДОЛЖНЫ БЫТЬ ПОМЕЧЕНЫ КАК ADDRESSABLE</summary>**
+
+Для того чтобы пометить ассет как Addressable необходимо поставить галочку в левой верхней части инспектора  
+![Как пометить ассет как Addressable](../Images/HowToWorkWithLocalizedLM87.png)  
+
+</details>
+
 ## 1. Подготовка  
 <details>
 <summary>Раскрыть</summary>
@@ -83,7 +91,7 @@
 - Добавить локализуемый текст в таблицу локализации ([См. Приложение 2](#приложение-2-работа-с-таблицей-локализации-текстов))  
 - На объект TextMeshPro, который необходимо локализовать, добавить компонент "LocalizeStringEvent"  
 ![Добавление компонента "LocalizeStringEvent"](../Images/HowToWorkWithLocalizedLM77.png)  
-- В поле "StringReference" выпадающего списка таблицу и ключ локализации  
+- В поле "StringReference" из выпадающего списка выбрать таблицу и ключ локализации  
 ![Поле "StringReference"](../Images/HowToWorkWithLocalizedLM78.png)  
 - Добавить ивент в UpdateString  
 ![Кнопка добавления ивента](../Images/HowToWorkWithLocalizedLM79.png)  
@@ -101,7 +109,7 @@
 - Добавить локализуемый аудиоклип в таблицу локализации ([См. Приложение 4](#приложение-4-работа-с-таблицей-локализации-ассетов))  
 - На объект AudioSource, который необходимо локализовать, добавить компонент "LocalizeAudioClipEvent"  
 ![Добавление компонента "LocalizeAudioClipEvent"](../Images/HowToWorkWithLocalizedLM82.png)  
-- В поле "LocalizedAssetReference" выпадающего списка таблицу и ключ локализации  
+- В поле "LocalizedAssetReference" из выпадающего списка выбрать таблицу и ключ локализации  
 ![Поле "LocalizedAssetReference"](../Images/HowToWorkWithLocalizedLM83.png)  
 - Добавить ивент в UpdateAsset  
 ![Кнопка добавления ивента](../Images/HowToWorkWithLocalizedLM84.png)  
@@ -116,6 +124,13 @@
 <details>
 <summary>Раскрыть</summary>
 
+- Добавить локализуемый материал в таблицу локализации ([См. Приложение 4](#приложение-4-работа-с-таблицей-локализации-ассетов))  
+- На объект, который необходимо локализовать, добавить компонент "LocalizedMaterial"  
+![Добавление компонента "LocalizedMaterial"](../Images/HowToWorkWithLocalizedLM88.png)  
+- В поле ChangingMaterialIndex вписать индекс материала в MeshRenderer, который следует локализовать
+![Поле "ChangingMaterialIndex"](../Images/HowToWorkWithLocalizedLM89.png)  
+- В поле "LocalizedTexture" из выпадающего списка выбрать таблицу и ключ локализации  
+![Поле "LocalizedTexture"](../Images/HowToWorkWithLocalizedLM90.png)  
 
 
 </details>
