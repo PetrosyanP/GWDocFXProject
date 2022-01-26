@@ -268,6 +268,8 @@
 - Нажать кнопку "Delete \[ElementKey\]"  
 ![Кнопка "Delete \[ElementKey\]"](../Images/HowToWorkWithLocalizedLM69.png)  
 
+В случае, если описание ошибки не присутствует ни в каком ключе локализации его необходимо добавить в таблицу локализации ([См. Приложение 4](#приложение-4-работа-с-таблицей-локализации-ассетов))  
+
 </details>
 
 ## Приложение 4 (Работа с таблицей локализации ассетов)  
@@ -279,25 +281,26 @@
 ![Как открыть окно редактирования таблиц локализации"](../Images/HowToWorkWithLocalizedLM26.png)  
 - В открывшемся окне выбрать вкладку NewTableCollection  
 ![Вкладка NewTableCollection](../Images/HowToWorkWithLocalizedLM27.png)  
-- В поле Type выбрать из выпадающего списка тип StringTableCollection  
-![Поле Type](../Images/HowToWorkWithLocalizedLM28.png)  
+- В поле Type выбрать из выпадающего списка тип AssetTableCollection  
+![Поле Type](../Images/HowToWorkWithLocalizedLM70.png)  
 - В поле Name ввести название таблицы (\[Имя тренажера\]Texts)  
-![Поле Name](../Images/HowToWorkWithLocalizedLM29.png)  
+![Поле Name](../Images/HowToWorkWithLocalizedLM71.png)  
 - Нажать кнопку "Create"  
-![Кнопка "Create"](../Images/HowToWorkWithLocalizedLM30.png)  
+![Кнопка "Create"](../Images/HowToWorkWithLocalizedLM72.png)  
 - В диалоговом окне указать путь к созданной ранее папке  
 
 ### П.4.2 Добавление значения в таблицу локализации  
 
 - Из выпадающего списка выбрать редактируемую таблицу локализации  
-![Выбор редактируемой таблицы локализации](../Images/HowToWorkWithLocalizedLM31.png)  
+![Выбор редактируемой таблицы локализации](../Images/HowToWorkWithLocalizedLM73.png)  
 - Нажать кнопку "AddNewEntry"  
 ![Кнопка "AddNewEntry"](../Images/HowToWorkWithLocalizedLM32.png)  
 - В ячейку на пересечении столбца "Key" и созданной строки ввести имя ключа добавляемого в таблицу  
-![Ячейка для имени ключа](../Images/HowToWorkWithLocalizedLM33.png)  
-- В ячейку на пересечении столбца "\[Имя языка на английском языке\]" и созданной строки ввести текстовое значение на данном языке  
-![Ячейка для локализовнного текста](../Images/HowToWorkWithLocalizedLM34.png)  
+![Ячейка для имени ключа](../Images/HowToWorkWithLocalizedLM74.png)  
+- В ячейку на пересечении столбца "\[Имя языка на английском языке\]" и созданной строки прилинковать локализованный ассет на языке столбца  
+![Ячейка для локализовнного ассета](../Images/HowToWorkWithLocalizedLM75.png)  
+
 ### П.4.3 Удаление значения из таблицы локализации  
 
 - Нажать кнопку "-" справа от имени ключа  
-![Кнопка "-"](../Images/HowToWorkWithLocalizedLM35.png)  
+![Кнопка "-"](../Images/HowToWorkWithLocalizedLM76.png)  
