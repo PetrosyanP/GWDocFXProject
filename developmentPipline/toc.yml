@@ -30,3 +30,5 @@
   href: EnvironmentSetup.md
 - name: Определение готовности разработанного тренажера
   href: DefenitionOfDoneNewTrainer.md
+- name: Определение готовности разработанного тренажера
+  href: HowToWorkWithLocalizedLM.md
