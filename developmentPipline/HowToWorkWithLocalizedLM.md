@@ -240,6 +240,35 @@
 </details>
 
 ## Приложение 3 (Работа с ассетом AudioAdviceSO)  
+<details>
+<summary>Раскрыть</summary>
+
+### П.3.1 Создание ассета  
+
+- Создать ассет (ПКМ->Create->AudioAdviceSO)  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM63.png)  
+
+### П.3.2 Добавление аудиоподсказки в ассет  
+
+- Раскрыть блок с именем режима, в который надо добавить аудиоподсказку  
+![Блок с именем режима](../Images/HowToWorkWithLocalizedLM64.png)  
+- Нажать кнопку "AddAudioAdvice for \[Имя режима\]"  
+![Кнопка "AddAudioAdvice for \[Имя режима\]"](../Images/HowToWorkWithLocalizedLM65.png)  
+- Раскрыть созданный элемент  
+![Созданный элемент](../Images/HowToWorkWithLocalizedLM66.png)  
+- В поле "ElementKey" ввести идентификатор аудиоподсказки по следующему формату: Step\[Номер шага\]_\[Первая буква названия режима\]  
+![Поле "ElementKey"](../Images/HowToWorkWithLocalizedLM67.png)  
+- В поле "LocalizedAsset" из выпадающего списка выбрать таблицу локализации и ключ локализации, который необходимо связать с данным элементом  
+![Поле "LocalizedAsset"](../Images/HowToWorkWithLocalizedLM68.png)  
+
+### П.3.3 Удаление аудиоподсказки из ассета  
+
+- Раскрыть блок с именем режима, из которого надо удалить аудиоподсказку  
+![Блок с именем режима](../Images/HowToWorkWithLocalizedLM64.png)  
+- Нажать кнопку "Delete \[ElementKey\]"  
+![Кнопка "Delete \[ElementKey\]"](../Images/HowToWorkWithLocalizedLM69.png)  
+
+</details>
 
 ## Приложение 4 (Работа с таблицей локализации ассетов)  
 
