@@ -1,5 +1,7 @@
 - name: Введение
   href: intro.md
+- name: Как мерджить в Main и Develop
+  href: PullRequestPlastic.md
 - name: Как работать с чужим кодом?
   href: WorkingWithSomeoneCode.md
 - name: Как работаем в системе контроля версий?
@@ -30,5 +32,10 @@
   href: EnvironmentSetup.md
 - name: Определение готовности разработанного тренажера
   href: DefenitionOfDoneNewTrainer.md
-- name: Определение готовности разработанного тренажера
+- name: Как работать с локализацией
   href: HowToWorkWithLocalizedLM.md
+- name: Пайплайн создания универсальной анимации для Humanoid типа
+  href: RecordHumanoidAnim.md
+- name: Как настроить проект VRTraking для MC
+  href: ProjectTrakingVR.md
+
