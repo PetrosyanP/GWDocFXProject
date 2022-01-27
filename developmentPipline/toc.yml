@@ -32,6 +32,8 @@
   href: EnvironmentSetup.md
 - name: Определение готовности разработанного тренажера
   href: DefenitionOfDoneNewTrainer.md
+- name: Как работать с локализацией
+  href: HowToWorkWithLocalizedLM.md
 - name: Пайплайн создания универсальной анимации для Humanoid типа
   href: RecordHumanoidAnim.md
 - name: Как настроить проект VRTraking для MC
