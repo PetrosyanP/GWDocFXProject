@@ -18,7 +18,11 @@
 ![Прилинковать созданный ассет к LessonManager](../Images/HowToWorkWithLocalizedLM1.png)  
 - Создать ассет AudioAdviceSO ([См. Приложение 3](#приложение-3-работа-с-ассетом-audioadviceso))  
 - Прилинковать созданный ассет к LessonManager  
-![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2.png)
+![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2.png)  
+- Добавить к LessonManager компонент LocalizeWindow  
+- Добавить к Lessonmanager компонент LMErrorsLocalizationHandler  
+- В поле StringTableName вписать имя таблицы локализации, связанной с этим тренажером  
+![Поле "StringTableName"](../Images/HowToWorkWithLocalizedLM2.png)  
 
 </details>
 
