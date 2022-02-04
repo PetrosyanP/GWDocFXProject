@@ -34,6 +34,8 @@
   href: DefenitionOfDoneNewTrainer.md
 - name: Как работать с локализацией
   href: HowToWorkWithLocalizedLM.md
+- name: Параллельная работа над шагами в одной сцене
+  href: WorkingInDifferentLMModes.md
 - name: Пайплайн создания универсальной анимации для Humanoid типа
   href: RecordHumanoidAnim.md
 - name: Как настроить проект VRTraking для MC
