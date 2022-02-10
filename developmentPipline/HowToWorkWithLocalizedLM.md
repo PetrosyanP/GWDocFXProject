@@ -261,12 +261,6 @@
 ![Линковка GoogleSheetsProvider](../Images/HowToWorkWithLocalizedLM46.png)  
 - В поле SpreadSheetID ввести ID гугл таблицы  
 ![Поле "SpreadSheetID"](../Images/HowToWorkWithLocalizedLM47.png)  
-- Под полем SheetID ввести имя таблицы  
-![Поле ввода имени нового листа](../Images/HowToWorkWithLocalizedLM48.png)  
-- Нажать кнопку AddSheet  
-![Кнопка "AddSheet"](../Images/HowToWorkWithLocalizedLM49.png)  
-- Из выпадающего списка выбрать созданный лист  
-![Выбор созданного листа](../Images/HowToWorkWithLocalizedLM50.png)  
 - В блоке MapppedColumns нажать кнопку "+"  
 ![Кнопка "+"](../Images/HowToWorkWithLocalizedLM51.png)  
 - Из выпадающего списка выбрать KeyColumn  
@@ -283,6 +277,40 @@
 ![Выбор типа ячейки](../Images/HowToWorkWithLocalizedLM53.png)  
 - В поле LocaleIdentifier выбрать русскую локаль  
 ![Выбор русской локали](../Images/HowToWorkWithLocalizedLM55.png)  
+- Под полем SheetID ввести имя таблицы  
+![Поле ввода имени нового листа](../Images/HowToWorkWithLocalizedLM48.png)  
+- Нажать кнопку AddSheet  
+![Кнопка "AddSheet"](../Images/HowToWorkWithLocalizedLM49.png)  
+- Из выпадающего списка выбрать созданный лист  
+![Выбор созданного листа](../Images/HowToWorkWithLocalizedLM50.png)  
+
+
+*Примечание. Существует более краткий вариант настройки, который нормально работает, если не трогались дефолтные настройки. Данный вариант ОБЯЗАТЕЛЬНО требует проверки автоматики*  
+<details>
+<summary>Краткий вариант</summary>
+
+- Выбрать ассет коллекции таблиц (Пример иконки ниже)  
+![Пример иконки ассет коллекции таблиц](../Images/HowToWorkWithLocalizedLM43.png)  
+- В блоке Extenshions нажать кнопку "+"  
+![Кнопка "+"](../Images/HowToWorkWithLocalizedLM44.png)  
+- Выбрать GoogleSheetExtenshions  
+![Выбор типа расширения](../Images/HowToWorkWithLocalizedLM45.png)  
+- В поле SheetsServiceProvider выбрать ассет провайдера гугл таблиц  
+![Линковка GoogleSheetsProvider](../Images/HowToWorkWithLocalizedLM46.png)  
+- В поле SpreadSheetID ввести ID гугл таблицы  
+![Поле "SpreadSheetID"](../Images/HowToWorkWithLocalizedLM47.png)  
+- В блоке MapppedColumns нажать кнопку "+"  
+![Кнопка "+"](../Images/HowToWorkWithLocalizedLM51.png)  
+- Из выпадающего списка выбрать Add Default Column  
+![Кнопка "Add Default Column"](../Images/HowToWorkWithLocalizedLM92.png)  
+- Под полем SheetID ввести имя таблицы  
+![Поле ввода имени нового листа](../Images/HowToWorkWithLocalizedLM48.png)  
+- Нажать кнопку AddSheet  
+![Кнопка "AddSheet"](../Images/HowToWorkWithLocalizedLM49.png)  
+- Из выпадающего списка выбрать созданный лист  
+![Выбор созданного листа](../Images/HowToWorkWithLocalizedLM50.png)  
+
+</summary>
 
 #### П.2.3.3 Синхронизация серверной таблицы с таблицей в проекте  
 
