@@ -19,7 +19,8 @@
 - Создать ассет AudioAdviceSO ([См. Приложение 3](#приложение-3-работа-с-ассетом-audioadviceso))  
 - Прилинковать созданный ассет к LessonManager  
 ![Прилинковать ассет AudioAdviceSO к LessonManager](../Images/HowToWorkWithLocalizedLM2.png)  
-- Добавить к LessonManager компонент LocalizeWindow  
+- Если на сцене присутствует выпадающий список для выбора языка, то прилинковать к нему компонент ChangeLanguage. В ивенте SelectedIndexChanged выбрать метод OnLocaleChanged.
+- Если на сцене не присутствует вышеуказанного выпадаюзего списка, то убедиться, что на префабе UI прилинкован компонент LocalizationInitializer
 - Добавить к Lessonmanager компонент LMErrorsLocalizationHandler  
 - В поле StringTableName вписать имя таблицы локализации, связанной с этим тренажером  
 ![Поле "StringTableName"](../Images/HowToWorkWithLocalizedLM2.png)  
